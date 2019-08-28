@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <main className='App'>
         <h2>Welcome!</h2>
-        <Ideas name="Greg"/>
+        <Ideas ideas={this.state.ideas}/>
       </main>
     )
   }
