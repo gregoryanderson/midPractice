@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Ideas from './Ideas'
 import './App.css';
 
-class App extends Component () {
+class App extends Component {
   constructor () {
     super() 
     this.state = {
@@ -15,7 +15,10 @@ class App extends Component () {
   
   render () {
     return (
-      <p>Hi</p>
+      <main className='App'>
+        <h2>Welcome!</h2>
+        <Ideas name="Greg"/>
+      </main>
     )
   }
 }
